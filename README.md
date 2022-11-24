@@ -2,7 +2,19 @@
 
 This project uses Quarkus, the Supersonic Subatomic Java Framework.
 
+This proof of concept exposes a REST interface and uses CRUD method operations to persist and remove data using an 
+instance of PostgreSQL database via Reactive components like Hibernate Reactive with Panache and Mutiny for async.
+
 If you want to learn more about Quarkus, please visit its website: https://quarkus.io/ .
+
+This PoC where based on next examples:
+- https://quarkus.io/guides/getting-started
+- https://quarkus.io/guides/getting-started-reactive
+## Prerequisites
+
+- JDK +11
+- Maven +3.8.6
+- PostgreSQL running instance.
 
 ## Running the application in dev mode
 
